@@ -1,0 +1,67 @@
+.navPanelWrapper {
+  width: 200px;
+  height: 100%;
+  overflow: hidden;
+  background-color: rgb(var(--panel-color));
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.brand {
+  padding-top: 1.5em;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 1.5em;
+  background-color: rgb(var(--panel-darker));
+}
+
+.brandName {
+  margin-top: 1em;
+  font-weight: 700;
+  font-style: italic;
+}
+
+.brandTitle {
+  margin-top: 0.5em;
+  font-weight: 200;
+  font-family: "Noto Sans", sans-serif;
+}
+
+.navBar {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-weight: 600;
+}
+
+.navBar a {
+  width: 100%;
+  text-align: center;
+  min-height: 3.5em;
+  line-height: 3.5em;
+  border-top: 2px solid rgb(var(--panel-darker));
+  cursor: pointer;
+  transition: ease-in-out .25s;
+}
+
+.navBar a:last-child {
+  border-bottom: 2px solid rgb(var(--panel-darker));
+}
+
+.navBar a:hover {
+  background-color: rgb(var(--panel-darker));
+  font-weight: 800;
+}
+
+.brandLinks {
+  display: flex;
+  gap: 1em;
+  justify-content: center;
+  padding-bottom: 3em;
+}
+
+.brandLinks a svg {
+  fill: rgb(var(--secondary));
+}
