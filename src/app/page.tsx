@@ -43,7 +43,7 @@ export default function Home() {
             <br />
             <span className={styles.rubberBand}>I</span>
             <span className={styles.rubberBand}>&apos;</span>
-            <span className={styles.rubberBand}>&nbsp;m</span>
+            <span className={styles.rubberBand}>m</span>
             <span className={styles.rubberBand}>&nbsp;</span>
             <span className={styles.rubberBand}>P</span>
             <span className={styles.rubberBand}>a</span>
