@@ -6,6 +6,7 @@
   --panel-darker: 20 20 40;
   --primary: 105 25 255;
   --secondary: 255 255 255;
+  --secondary-darker: 155 155 155;
 }
 
 * {
